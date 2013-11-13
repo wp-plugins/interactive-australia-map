@@ -1,0 +1,66 @@
+{
+    "st1": {
+   	 	"id": 1,
+		"name": "Australian Capital Territory",
+		"shortname": "",
+		"link": "",
+		"comment": "",
+		"image": ""
+	},
+    "st2": {
+   	 	"id": 2,
+		"name": "New South Wales",
+		"shortname": "",
+		"link": "",
+		"comment": "",
+		"image": ""
+	},
+    "st3": {
+   	 	"id": 3,
+		"name": "Northern Territory",
+		"shortname": "",
+		"link": "",
+		"comment": "",
+		"image": ""
+	},
+    "st4": {
+   	 	"id": 4,
+		"name": "Queensland",
+		"shortname": "",
+		"link": "",
+		"comment": "",
+		"image": ""
+	},
+    "st5": {
+   	 	"id": 5,
+		"name": "South Australia",
+		"shortname": "",
+		"link": "",
+		"comment": "",
+		"image": ""
+	},
+    "st6": {
+   	 	"id": 6,
+		"name": "Tasmania",
+		"shortname": "",
+		"link": "",
+		"comment": "",
+		"image": ""
+	},
+    "st7": {
+   	 	"id": 7,
+		"name": "Victoria",
+		"shortname": "",
+		"link": "",
+		"comment": "",
+		"image": ""
+	},
+    "st8": {
+   	 	"id": 8,
+		"name": "Western Australia",
+		"shortname": "",
+		"link": "",
+		"comment": "",
+		"image": ""
+	}
+}
