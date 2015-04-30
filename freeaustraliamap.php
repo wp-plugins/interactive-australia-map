@@ -3,7 +3,7 @@
 Plugin Name: Interactive Australia Map
 Plugin URI: http://fla-shop.com
 Description: Free WordPress plugin for embedding an interactive map of Australia with clickable states. Easy to install and configure. To get started: 1) Click the "Activate" link to the left of this description, 2) Edit the map settings, and 3) After that, insert the shortcode <strong>[freeaustraliamap01]</strong> into the text of a page or a post where you want the map to be.
-Version: 1.0
+Version: 1.1
 Author: Fla-shop.com
 Author URI: http://fla-shop.com
 License: GPLv2 or later
@@ -269,7 +269,7 @@ function free_australia_map_plugin_content($content) {
             <div style=\"position: relative\">
                 <div id=\"toolTip\"><table id=\"ToolTipFrame\" class=\"ToolTipFrameClass\"><tr id=\"ToolTipFrame\" class=\"ToolTipFrameClass\" valign=\"top\"><td id=\"toolTipImage\"></td><td id=\"toolTipComment\" class=\"toolTipCommentClass\"></td></tr></table><div id=\"toolTipName\"></div></div>
                 <div style=\"width: 500px; height: 449px; background-image: url('{$dir}img/aus.png')\"></div>
-                <img style=\"position: absolute; top: 0; left: 0; z-index: 2;\" width=\"500\" height=\"449\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" usemap=\"#us_imageready_Map\" border=0 />
+                <img style=\"position: absolute; top: 0; left: 0; z-index: 2; box-shadow: none !important;\" width=\"500\" height=\"449\" src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" usemap=\"#us_imageready_Map\" border=0 />
                 <map onmousemove='moveToolTipFree(event);' name=\"us_imageready_Map\">
                     <area onmouseover=\"freeaustraliaMapIn(1)\" onmouseout=\"freeaustraliaMapOut()\" shape=\"poly\" alt=\"div1\" coords=\"417,338, 420,333, 425,335, 425,338, 423,341, 422,344, 443,344, 443,341, 444,338, 448,335, 476,335, 479,336, 481,338, 482,341, 482,354, 481,356, 479,358, 478,359, 447,359, 445,357, 443,355, 443,344, 422,344, 422,347, 417,347, 415,341\" target='{$freeMapDataJ['st1']['target']}' a href=\"{$freeMapDataJ['st1']['link']}\">
                     <area onmouseover=\"freeaustraliaMapIn(2)\" onmouseout=\"freeaustraliaMapOut()\" shape=\"poly\" alt=\"div2\" coords=\"484,251, 480,268, 476,280, 472,293, 464,303, 463,308, 458,311, 448,322, 444,331, 437,340, 434,344, 430,344, 422,344, 423,341, 425,338, 425,335, 420,333, 415,341, 417,347, 422,347, 422,344, 434,344, 431,352, 429,360, 428,368, 409,354, 408,344, 404,344, 399,345, 395,343, 391,343, 386,342, 382,338, 377,338, 377,343, 374,343, 369,338, 365,332, 360,328, 361,324, 354,320, 354,324, 350,318, 347,313, 342,315, 335,312, 339,247, 430,255, 437,250, 442,251, 445,251, 450,253, 453,254, 457,259, 460,257, 464,260, 465,253, 470,251, 476,253\" target='{$freeMapDataJ['st2']['target']}' a href=\"{$freeMapDataJ['st2']['link']}\">

@@ -4,7 +4,7 @@ Donate link: http://fla-shop.com/
 Tags: map, maps, interactive map, javascript, html5 map, svg map, Australia, clickable map, dealer map
 Requires at least: 3.3
 Tested up to: 4.2.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 
 Free WordPress plugin for embedding an interactive map of Australia with clickable states. Easy to install and configure.
@@ -50,6 +50,8 @@ No, all maps inserted with the `[freeaustraliamap01]` will share the same config
 
 
 == Changelog ==
+= 1.1 =
+* Minor change. Disabling box-shadow for the image map.
 
 = 1.0 =
 * Initial release.
