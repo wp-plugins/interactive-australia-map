@@ -102,11 +102,12 @@ function free_australia_map_plugin_content($content) {
 
     foreach($freeMapDataJ as $k=>$v) {
         if($v['link'] == '') {
-            $freeMapDataJ[$k]['link'] = '#';
+            $freeMapDataJ[$k]['link'] = '';
             $freeMapDataJ[$k]['target'] = '';
         }
         else {
-            $freeMapDataJ[$k]['target'] = '_blank';
+            $freeMapDataJ[$k]['link'] = 'href="'.$freeMapDataJ[$k]['link'].'"';
+            $freeMapDataJ[$k]['target'] = '_top';
         }
 
     }
