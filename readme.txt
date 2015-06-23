@@ -11,6 +11,8 @@ Free WordPress plugin for embedding an interactive map of Australia with clickab
 
 == Description ==
 
+**Looking for a responsive and mobile-friendly maps? Try our brand new free WP plugin [HTML5 maps](https://wordpress.org/plugins/html5-maps/)**
+
 This plugin allows you to embed the colorful interactive map of Australia to your WordPress powered website. Interactive map is the best way to provide your blog with geographically-related content or effective navigation system. Just add a special shortcode into any blog page or post and you will find our map in the blog after the few seconds. Functional editor allows you to easily add popup balloons for additional information.
 
 Features:
